@@ -1,0 +1,10 @@
+[Unit]
+Description=TimeWarrior start on boot
+
+[Service]
+User=mreich
+ExecStart=/bin/bash /home/mreich/bin/twork_startup
+#ExecStart=/bin/bash /home/mreich/bin/twork_resume
+
+[Install]
+WantedBy=multi-user.target

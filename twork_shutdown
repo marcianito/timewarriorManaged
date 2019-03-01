@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# stop the running time warrior tracking instance on shutdown
+timew stop

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# start standard projects for time warrior tracking instance at startup
+timew start MOSES
