@@ -17,6 +17,7 @@ start/stopping scripts:
 systemd service files:
   * replace "mreich" in the filename with your username
   * replace "mreich" within each file with your username
+  * copy both files to /etc/systemd/system/
   * start and test service: ``sudo systemctl start twarrior*@USER.service``
   * enable system service: ``sudo systemctl enable twarrior*@USER.service``
   
