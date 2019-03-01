@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# resume last the running time warrior tracking instance
+timew continue
